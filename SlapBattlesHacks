@@ -1,0 +1,844 @@
+-- Made by oldspak4
+-- Version: 1.1
+
+-- Instances:
+
+local slapbattels = Instance.new("ScreenGui")
+local Elite = Instance.new("ScrollingFrame")
+local Frame = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local admin = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local hhjgh = Instance.new("TextLabel")
+local speed = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local hhjgh_2 = Instance.new("TextLabel")
+local speedn = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local hhjgh_3 = Instance.new("TextLabel")
+local jump = Instance.new("TextButton")
+local Shadow_4 = Instance.new("Frame")
+local hhjgh_4 = Instance.new("TextLabel")
+local jumpn = Instance.new("TextButton")
+local Shadow_5 = Instance.new("Frame")
+local hhjgh_5 = Instance.new("TextLabel")
+local ESP = Instance.new("TextButton")
+local Shadow_6 = Instance.new("Frame")
+local hhjgh_6 = Instance.new("TextLabel")
+local Aim = Instance.new("TextButton")
+local Shadow_7 = Instance.new("Frame")
+local hhjgh_7 = Instance.new("TextLabel")
+local TP = Instance.new("TextButton")
+local Shadow_8 = Instance.new("Frame")
+local hhjgh_8 = Instance.new("TextLabel")
+local noclip = Instance.new("TextButton")
+local Shadow_9 = Instance.new("Frame")
+local hhjgh_9 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Pattern = Instance.new("ImageLabel")
+
+--Properties:
+
+slapbattels.Name = "slapbattels"
+slapbattels.Parent = game.CoreGui
+
+Elite.Name = "Elite"
+Elite.Parent = slapbattels
+Elite.Active = true
+Elite.BackgroundColor3 = Color3.fromRGB(35, 0, 0)
+Elite.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Elite.Position = UDim2.new(0.418867916, 0, 0.338613868, 0)
+Elite.Size = UDim2.new(0, 179, 0, 255)
+Elite.CanvasSize = UDim2.new(0, 0, 1, 0)
+Elite.ScrollBarThickness = 0
+
+Frame.Name = "Frame"
+Frame.Parent = Elite
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0, 0, -0.0188644342, 0)
+Frame.Size = UDim2.new(0, 179, 0, 58)
+Frame.ZIndex = 7
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(244, 228, 44)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00558659201, 0, 0.162402689, 0)
+TextLabel.Size = UDim2.new(0, 179, 0, 44)
+TextLabel.ZIndex = 8
+TextLabel.Font = Enum.Font.LuckiestGuy
+TextLabel.Text = "Slap Battles Gui"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.TextSize = 18.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.30726257, 0, 0.455506146, 0)
+TextLabel_2.Size = UDim2.new(0, 179, 0, 44)
+TextLabel_2.ZIndex = 8
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "By oldspak4"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 10.000
+
+admin.Name = "admin"
+admin.Parent = Elite
+admin.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.0465637296, 0, 0.127218008, 0)
+admin.Size = UDim2.new(0, 162, 0, 34)
+admin.ZIndex = 8
+admin.Font = Enum.Font.GothamMedium
+admin.Text = ""
+admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+admin.TextScaled = true
+admin.TextSize = 14.000
+admin.TextWrapped = true
+admin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Shadow.Name = "Shadow"
+Shadow.Parent = admin
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh.Name = "hhjgh"
+hhjgh.Parent = admin
+hhjgh.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh.BackgroundTransparency = 1.000
+hhjgh.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh.BorderSizePixel = 0
+hhjgh.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh.Size = UDim2.new(1, -20, 1, -20)
+hhjgh.ZIndex = 8
+hhjgh.Font = Enum.Font.PatrickHand
+hhjgh.Text = "admin"
+hhjgh.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh.TextSize = 33.000
+hhjgh.TextWrapped = true
+
+speed.Name = "speed"
+speed.Parent = Elite
+speed.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+speed.BorderSizePixel = 0
+speed.Position = UDim2.new(0.0465637296, 0, 0.218307108, 0)
+speed.Size = UDim2.new(0, 162, 0, 34)
+speed.ZIndex = 8
+speed.Font = Enum.Font.GothamMedium
+speed.Text = ""
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+speed.TextScaled = true
+speed.TextSize = 14.000
+speed.TextWrapped = true
+speed.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = speed
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_2.Name = "hhjgh"
+hhjgh_2.Parent = speed
+hhjgh_2.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_2.BackgroundTransparency = 1.000
+hhjgh_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_2.BorderSizePixel = 0
+hhjgh_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_2.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_2.ZIndex = 8
+hhjgh_2.Font = Enum.Font.PatrickHand
+hhjgh_2.Text = "Ultraspeed"
+hhjgh_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_2.TextSize = 33.000
+hhjgh_2.TextWrapped = true
+
+speedn.Name = "speed-n"
+speedn.Parent = Elite
+speedn.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+speedn.BorderSizePixel = 0
+speedn.Position = UDim2.new(0.0465637296, 0, 0.305435836, 0)
+speedn.Size = UDim2.new(0, 162, 0, 34)
+speedn.ZIndex = 8
+speedn.Font = Enum.Font.GothamMedium
+speedn.Text = ""
+speedn.TextColor3 = Color3.fromRGB(255, 255, 255)
+speedn.TextScaled = true
+speedn.TextSize = 14.000
+speedn.TextWrapped = true
+speedn.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = speedn
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_3.Name = "hhjgh"
+hhjgh_3.Parent = speedn
+hhjgh_3.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_3.BackgroundTransparency = 1.000
+hhjgh_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_3.BorderSizePixel = 0
+hhjgh_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_3.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_3.ZIndex = 8
+hhjgh_3.Font = Enum.Font.PatrickHand
+hhjgh_3.Text = "Normal speed"
+hhjgh_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_3.TextSize = 33.000
+hhjgh_3.TextWrapped = true
+
+jump.Name = "jump"
+jump.Parent = Elite
+jump.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+jump.BorderSizePixel = 0
+jump.Position = UDim2.new(0.040977139, 0, 0.392564535, 0)
+jump.Size = UDim2.new(0, 162, 0, 34)
+jump.ZIndex = 8
+jump.Font = Enum.Font.GothamMedium
+jump.Text = ""
+jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+jump.TextScaled = true
+jump.TextSize = 14.000
+jump.TextWrapped = true
+jump.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+end)
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = jump
+Shadow_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_4.Name = "hhjgh"
+hhjgh_4.Parent = jump
+hhjgh_4.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_4.BackgroundTransparency = 1.000
+hhjgh_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_4.BorderSizePixel = 0
+hhjgh_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_4.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_4.ZIndex = 8
+hhjgh_4.Font = Enum.Font.PatrickHand
+hhjgh_4.Text = "Ultra jump"
+hhjgh_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_4.TextSize = 33.000
+hhjgh_4.TextWrapped = true
+
+jumpn.Name = "jump-n"
+jumpn.Parent = Elite
+jumpn.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+jumpn.BorderSizePixel = 0
+jumpn.Position = UDim2.new(0.0465637296, 0, 0.481673449, 0)
+jumpn.Size = UDim2.new(0, 162, 0, 34)
+jumpn.ZIndex = 8
+jumpn.Font = Enum.Font.GothamMedium
+jumpn.Text = ""
+jumpn.TextColor3 = Color3.fromRGB(255, 255, 255)
+jumpn.TextScaled = true
+jumpn.TextSize = 14.000
+jumpn.TextWrapped = true
+jumpn.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = jumpn
+Shadow_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_5.Name = "hhjgh"
+hhjgh_5.Parent = jumpn
+hhjgh_5.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_5.BackgroundTransparency = 1.000
+hhjgh_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_5.BorderSizePixel = 0
+hhjgh_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_5.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_5.ZIndex = 8
+hhjgh_5.Font = Enum.Font.PatrickHand
+hhjgh_5.Text = "Normal jump"
+hhjgh_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_5.TextSize = 33.000
+hhjgh_5.TextWrapped = true
+
+ESP.Name = "ESP"
+ESP.Parent = Elite
+ESP.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.0465637296, 0, 0.566821933, 0)
+ESP.Size = UDim2.new(0, 162, 0, 34)
+ESP.ZIndex = 8
+ESP.Font = Enum.Font.GothamMedium
+ESP.Text = ""
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextScaled = true
+ESP.TextSize = 14.000
+ESP.TextWrapped = true
+ESP.MouseButton1Down:connect(function()
+	local color = BrickColor.new(50,0,250)
+	local transparency = .8
+
+	local Players = game:GetService("Players")
+	local function _ESP(c)
+		repeat wait() until c.PrimaryPart ~= nil
+		for i,p in pairs(c:GetChildren()) do
+			if p.ClassName == "Part" or p.ClassName == "MeshPart" then
+				if p:FindFirstChild("shit") then p.shit:Destroy() end
+				local a = Instance.new("BoxHandleAdornment",p)
+				a.Name = "shit"
+				a.Size = p.Size
+				a.Color = color
+				a.Transparency = transparency
+				a.AlwaysOnTop = true    
+				a.Visible = true    
+				a.Adornee = p
+				a.ZIndex = true    
+
+			end
+		end
+	end
+	local function ESP()
+		for i,v in pairs(Players:GetChildren()) do
+			if v ~= game.Players.LocalPlayer then
+				if v.Character then
+					_ESP(v.Character)
+				end
+				v.CharacterAdded:Connect(function(chr)
+					_ESP(chr)
+				end)
+			end
+		end
+		Players.PlayerAdded:Connect(function(player)
+			player.CharacterAdded:Connect(function(chr)
+				_ESP(chr)
+			end)  
+		end)
+	end
+	ESP()
+end)
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = ESP
+Shadow_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_6.Name = "hhjgh"
+hhjgh_6.Parent = ESP
+hhjgh_6.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_6.BackgroundTransparency = 1.000
+hhjgh_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_6.BorderSizePixel = 0
+hhjgh_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_6.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_6.ZIndex = 8
+hhjgh_6.Font = Enum.Font.PatrickHand
+hhjgh_6.Text = "ESP"
+hhjgh_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_6.TextSize = 33.000
+hhjgh_6.TextWrapped = true
+
+Aim.Name = "Aim"
+Aim.Parent = Elite
+Aim.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+Aim.BorderSizePixel = 0
+Aim.Position = UDim2.new(0.0465637296, 0, 0.657911062, 0)
+Aim.Size = UDim2.new(0, 162, 0, 34)
+Aim.ZIndex = 8
+Aim.Font = Enum.Font.GothamMedium
+Aim.Text = ""
+Aim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aim.TextScaled = true
+Aim.TextSize = 14.000
+Aim.TextWrapped = true
+Aim.MouseButton1Down:connect(function()
+	PLAYER  = game.Players.LocalPlayer
+	MOUSE   = PLAYER:GetMouse()
+	CC      = game.Workspace.CurrentCamera
+
+	ENABLED      = false
+	ESP_ENABLED  = false
+
+	_G.FREE_FOR_ALL = true
+
+	_G.ESP_BIND    = 52
+	_G.CHANGE_AIM  = 'q'
+
+	_G.AIM_AT = 'Head'
+
+	wait(1)
+
+	function GetNearestPlayerToMouse()
+		local PLAYERS      = {}
+		local PLAYER_HOLD  = {}
+		local DISTANCES    = {}
+		for i, v in pairs(game.Players:GetPlayers()) do
+			if v ~= PLAYER then
+				table.insert(PLAYERS, v)
+			end
+		end
+		for i, v in pairs(PLAYERS) do
+			if _G.FREE_FOR_ALL == false then
+				if v and (v.Character) ~= nil and v.TeamColor ~= PLAYER.TeamColor then
+					local AIM = v.Character:FindFirstChild(_G.AIM_AT)
+					if AIM ~= nil then
+						local DISTANCE                 = (AIM.Position - game.Workspace.CurrentCamera.CoordinateFrame.p).magnitude
+						local RAY                      = Ray.new(game.Workspace.CurrentCamera.CoordinateFrame.p, (MOUSE.Hit.p - CC.CoordinateFrame.p).unit * DISTANCE)
+						local HIT,POS                  = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+						local DIFF                     = math.floor((POS - AIM.Position).magnitude)
+						PLAYER_HOLD[v.Name .. i]       = {}
+						PLAYER_HOLD[v.Name .. i].dist  = DISTANCE
+						PLAYER_HOLD[v.Name .. i].plr   = v
+						PLAYER_HOLD[v.Name .. i].diff  = DIFF
+						table.insert(DISTANCES, DIFF)
+					end
+				end
+			elseif _G.FREE_FOR_ALL == true then
+				local AIM = v.Character:FindFirstChild(_G.AIM_AT)
+				if AIM ~= nil then
+					local DISTANCE                 = (AIM.Position - game.Workspace.CurrentCamera.CoordinateFrame.p).magnitude
+					local RAY                      = Ray.new(game.Workspace.CurrentCamera.CoordinateFrame.p, (MOUSE.Hit.p - CC.CoordinateFrame.p).unit * DISTANCE)
+					local HIT,POS                  = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+					local DIFF                     = math.floor((POS - AIM.Position).magnitude)
+					PLAYER_HOLD[v.Name .. i]       = {}
+					PLAYER_HOLD[v.Name .. i].dist  = DISTANCE
+					PLAYER_HOLD[v.Name .. i].plr   = v
+					PLAYER_HOLD[v.Name .. i].diff  = DIFF
+					table.insert(DISTANCES, DIFF)
+				end
+			end
+		end
+
+		if unpack(DISTANCES) == nil then
+			return false
+		end
+
+		local L_DISTANCE = math.floor(math.min(unpack(DISTANCES)))
+		if L_DISTANCE > 20 then
+			return false
+		end
+
+		for i, v in pairs(PLAYER_HOLD) do
+			if v.diff == L_DISTANCE then
+				return v.plr
+			end
+		end
+		return false
+	end
+
+	GUI_MAIN                           = Instance.new('ScreenGui', game.CoreGui)
+	GUI_TARGET                         = Instance.new('TextLabel', GUI_MAIN)
+	GUI_AIM_AT                         = Instance.new('TextLabel', GUI_MAIN)
+
+	GUI_MAIN.Name                      = 'AIMBOT'
+
+	GUI_TARGET.Size                    = UDim2.new(0,200,0,30)
+	GUI_TARGET.BackgroundTransparency  = 0.5
+	GUI_TARGET.BackgroundColor         = BrickColor.new('Fossil')
+	GUI_TARGET.BorderSizePixel         = 0
+	GUI_TARGET.Position                = UDim2.new(0.5,-100,0,0)
+	GUI_TARGET.Text                    = 'AIMBOT : OFF'
+	GUI_TARGET.TextColor3              = Color3.new(1,1,1)
+	GUI_TARGET.TextStrokeTransparency  = 1
+	GUI_TARGET.TextWrapped             = true
+	GUI_TARGET.FontSize                = 'Size24'
+	GUI_TARGET.Font                    = 'SourceSansBold'
+
+	GUI_AIM_AT.Size                    = UDim2.new(0,200,0,20)
+	GUI_AIM_AT.BackgroundTransparency  = 0.5
+	GUI_AIM_AT.BackgroundColor         = BrickColor.new('Fossil')
+	GUI_AIM_AT.BorderSizePixel         = 0
+	GUI_AIM_AT.Position                = UDim2.new(0.5,-100,0,30)
+	GUI_AIM_AT.Text                    = 'AIMING : HEAD'
+	GUI_AIM_AT.TextColor3              = Color3.new(1,1,1)
+	GUI_AIM_AT.TextStrokeTransparency  = 1
+	GUI_AIM_AT.TextWrapped             = true
+	GUI_AIM_AT.FontSize                = 'Size18'
+	GUI_AIM_AT.Font                    = 'SourceSansBold'
+
+	local TRACK = false
+
+	function CREATE(BASE, TEAM)
+		local ESP_MAIN                   = Instance.new('BillboardGui', PLAYER.PlayerGui)
+		local ESP_DOT                    = Instance.new('Frame', ESP_MAIN)
+		local ESP_NAME                   = Instance.new('TextLabel', ESP_MAIN)
+
+		ESP_MAIN.Name                    = 'ESP'
+		ESP_MAIN.Adornee                 = BASE
+		ESP_MAIN.AlwaysOnTop             = true
+		ESP_MAIN.ExtentsOffset           = Vector3.new(0, 1, 0)
+		ESP_MAIN.Size                    = UDim2.new(0, 5, 0, 5)
+
+		ESP_DOT.Name                     = 'DOT'
+		ESP_DOT.BackgroundColor          = BrickColor.new('Bright red')
+		ESP_DOT.BackgroundTransparency   = 0.3
+		ESP_DOT.BorderSizePixel          = 0
+		ESP_DOT.Position                 = UDim2.new(-0.5, 0, -0.5, 0)
+		ESP_DOT.Size                     = UDim2.new(2, 0, 2, 0)
+		ESP_DOT.Visible                  = true
+		ESP_DOT.ZIndex                   = 10
+
+		ESP_NAME.Name                    = 'NAME'
+		ESP_NAME.BackgroundColor3        = Color3.new(255, 255, 255)
+		ESP_NAME.BackgroundTransparency  = 1
+		ESP_NAME.BorderSizePixel         = 0
+		ESP_NAME.Position                = UDim2.new(0, 0, 0, -40)
+		ESP_NAME.Size                    = UDim2.new(1, 0, 10, 0)
+		ESP_NAME.Visible                 = true
+		ESP_NAME.ZIndex                  = 10
+		ESP_NAME.Font                    = 'ArialBold'
+		ESP_NAME.FontSize                = 'Size14'
+		ESP_NAME.Text                    = BASE.Parent.Name:upper()
+		ESP_NAME.TextColor               = BrickColor.new('Bright red')
+	end
+
+	function CLEAR()
+		for _,v in pairs(PLAYER.PlayerGui:children()) do
+			if v.Name == 'ESP' and v:IsA('BillboardGui') then
+				v:Destroy()
+			end
+		end
+	end
+
+	function FIND()
+		CLEAR()
+		TRACK = true
+		spawn(function()
+			while wait() do
+				if TRACK then
+					CLEAR()
+					for i,v in pairs(game.Players:GetChildren()) do
+						if v.Character and v.Character:FindFirstChild('Head') then
+							if _G.FREE_FOR_ALL == false then
+								if v.TeamColor ~= PLAYER.TeamColor then
+									if v.Character:FindFirstChild('Head') then
+										CREATE(v.Character.Head, true)
+									end
+								end
+							else
+								if v.Character:FindFirstChild('Head') then
+									CREATE(v.Character.Head, true)
+								end
+							end
+						end
+					end
+				end
+			end
+			wait(1)
+		end)
+	end
+
+	MOUSE.Button2Down:connect(function()
+		ENABLED = true
+	end)
+
+	MOUSE.Button2Up:connect(function()
+		ENABLED = false
+	end)
+
+	MOUSE.KeyDown:connect(function(KEY)
+		KEY = KEY:lower():byte()
+		if KEY == _G.ESP_BIND then
+			if ESP_ENABLED == false then
+				FIND()
+				ESP_ENABLED = true
+				print('ESP : ON')
+			elseif ESP_ENABLED == true then
+				wait()
+				CLEAR()
+				TRACK = false
+				ESP_ENABLED = false
+				print('ESP : OFF')
+			end
+		end
+	end)
+
+	MOUSE.KeyDown:connect(function(KEY)
+		if KEY == _G.CHANGE_AIM then
+			if _G.AIM_AT == 'Head' then
+				_G.AIM_AT = 'Torso'
+				GUI_AIM_AT.Text = 'AIMING : TORSO'
+			elseif _G.AIM_AT == 'Torso' then
+				_G.AIM_AT = 'Head'
+				GUI_AIM_AT.Text = 'AIMING : HEAD'
+			end
+		end
+	end)
+
+	game:GetService('RunService').RenderStepped:connect(function()
+		if ENABLED then
+			local TARGET = GetNearestPlayerToMouse()
+			if (TARGET ~= false) then
+				local AIM = TARGET.Character:FindFirstChild(_G.AIM_AT)
+				if AIM then
+					CC.CoordinateFrame = CFrame.new(CC.CoordinateFrame.p, AIM.CFrame.p)
+				end
+				GUI_TARGET.Text = 'AIMBOT : '.. TARGET.Name:sub(1, 5)
+			else
+				GUI_TARGET.Text = 'AIMBOT : OFF'
+			end
+		end
+	end)
+
+	repeat
+		wait()
+		if ESP_ENABLED == true then
+			FIND()
+		end
+	until ESP_ENABLED == false
+end)
+
+Shadow_7.Name = "Shadow"
+Shadow_7.Parent = Aim
+Shadow_7.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_7.BorderSizePixel = 0
+Shadow_7.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_7.Name = "hhjgh"
+hhjgh_7.Parent = Aim
+hhjgh_7.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_7.BackgroundTransparency = 1.000
+hhjgh_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_7.BorderSizePixel = 0
+hhjgh_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_7.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_7.ZIndex = 8
+hhjgh_7.Font = Enum.Font.PatrickHand
+hhjgh_7.Text = "Aimbot"
+hhjgh_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_7.TextSize = 33.000
+hhjgh_7.TextWrapped = true
+
+TP.Name = "TP"
+TP.Parent = Elite
+TP.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+TP.BorderSizePixel = 0
+TP.Position = UDim2.new(0.0465637296, 0, 0.747020006, 0)
+TP.Size = UDim2.new(0, 162, 0, 34)
+TP.ZIndex = 8
+TP.Font = Enum.Font.GothamMedium
+TP.Text = ""
+TP.TextColor3 = Color3.fromRGB(255, 255, 255)
+TP.TextScaled = true
+TP.TextSize = 14.000
+TP.TextWrapped = true
+TP.MouseButton1Down:connect(function()
+	local Player = game.Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	local UserInputService = game:GetService('UserInputService')
+
+	local HoldingControl = false
+
+	Mouse.Button1Down:connect(function()
+		if HoldingControl then
+			Player.Character:MoveTo(Mouse.Hit.p)
+		end
+	end)
+
+	UserInputService.InputBegan:connect(function(Input, Processed)
+		if Input.UserInputType == Enum.UserInputType.Keyboard then
+			if Input.KeyCode == Enum.KeyCode.LeftControl then
+				HoldingControl = true
+			elseif Input.KeyCode == Enum.KeyCode.RightControl then
+				HoldingControl = true
+			end
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(Input, Processed)
+		if Input.UserInputType == Enum.UserInputType.Keyboard then
+			if Input.KeyCode == Enum.KeyCode.LeftControl then
+				HoldingControl = false
+			elseif Input.KeyCode == Enum.KeyCode.RightControl then
+				HoldingControl = false
+			end
+		end
+	end)
+end)
+
+
+Shadow_8.Name = "Shadow"
+Shadow_8.Parent = TP
+Shadow_8.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_8.BorderSizePixel = 0
+Shadow_8.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_8.Name = "hhjgh"
+hhjgh_8.Parent = TP
+hhjgh_8.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_8.BackgroundTransparency = 1.000
+hhjgh_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_8.BorderSizePixel = 0
+hhjgh_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_8.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_8.ZIndex = 8
+hhjgh_8.Font = Enum.Font.PatrickHand
+hhjgh_8.Text = "Ctrl-TP"
+hhjgh_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_8.TextSize = 33.000
+hhjgh_8.TextWrapped = true
+
+noclip.Name = "noclip"
+noclip.Parent = Elite
+noclip.BackgroundColor3 = Color3.fromRGB(72, 54, 2)
+noclip.BorderSizePixel = 0
+noclip.Position = UDim2.new(0.0465637296, 0, 0.83612895, 0)
+noclip.Size = UDim2.new(0, 162, 0, 34)
+noclip.ZIndex = 8
+noclip.Font = Enum.Font.GothamMedium
+noclip.Text = ""
+noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+noclip.TextScaled = true
+noclip.TextSize = 14.000
+noclip.TextWrapped = true
+noclip.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/a95RwWVu", true))()
+end)
+
+Shadow_9.Name = "Shadow"
+Shadow_9.Parent = noclip
+Shadow_9.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_9.BorderSizePixel = 0
+Shadow_9.Size = UDim2.new(1, 0, 0.882352948, 4)
+
+hhjgh_9.Name = "hhjgh"
+hhjgh_9.Parent = noclip
+hhjgh_9.AnchorPoint = Vector2.new(0.5, 0.5)
+hhjgh_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_9.BackgroundTransparency = 1.000
+hhjgh_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+hhjgh_9.BorderSizePixel = 0
+hhjgh_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+hhjgh_9.Size = UDim2.new(1, -20, 1, -20)
+hhjgh_9.ZIndex = 8
+hhjgh_9.Font = Enum.Font.PatrickHand
+hhjgh_9.Text = "Noclip"
+hhjgh_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+hhjgh_9.TextSize = 33.000
+hhjgh_9.TextWrapped = true
+
+TextLabel_3.Parent = Elite
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0614525154, 0, 0.906930685, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.ZIndex = 80
+TextLabel_3.Font = Enum.Font.LuckiestGuy
+TextLabel_3.Text = "THX for using my scripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 12.000
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Elite
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(-0.000126511193, 0, 0, 0)
+Pattern.Size = UDim2.new(0, 177, 1, 566)
+Pattern.ZIndex = 6
+Pattern.Image = "rbxassetid://2151760196"
+Pattern.ImageTransparency = 0.600
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 25, 0, 15)
+
+-- Scripts:
+
+local function RCKQZB_fake_script() -- Elite.LocalScript 
+	local script = Instance.new('LocalScript', Elite)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local Elite = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(Elite, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	Elite.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = Elite.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(RCKQZB_fake_script)()
